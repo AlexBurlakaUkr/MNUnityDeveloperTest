@@ -6,7 +6,17 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: BotIdle
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alpha_Body_MAT
+    second: {fileID: 2100000, guid: b286f327171f6ee4ab60cf6bf1c950e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alpha_Joints_MAT
+    second: {fileID: 2100000, guid: 906c7afb419e531469c68895fdb45bcb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
