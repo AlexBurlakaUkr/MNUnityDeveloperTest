@@ -12,31 +12,26 @@ namespace CadeBase.Hero
         public Rig AimLayer;
 
         private Camera _mainCamera;
-        private RaycastWeapon _weapon;
 
         private void Start()
         {
             _mainCamera = Camera.main;
-            _weapon = GetComponentInChildren<RaycastWeapon>();
         }
 
         private void Update()
         {
-            if (Input.GetMouseButton(1))
-            {
-                AimLayer.weight += Time.deltaTime / AimDuration;
-                if (Input.GetMouseButton(0))
-                {
-                    if (!_weapon.IsFiring)  _weapon.StartFiring();
-                    _weapon.UpdateFiring(Time.deltaTime);
-                }
-            }
-            else
-                AimLayer.weight -= Time.deltaTime / AimDuration;
-            
-            _weapon.UpdateBullet(Time.deltaTime);
-            if (Input.GetMouseButtonUp(0))
-                _weapon.StopFiring();
+            // if (Input.GetMouseButton(1))
+            // {
+            //     AimLayer.weight += Time.deltaTime / AimDuration;
+            //     if (Input.GetMouseButton(0))
+            //     {
+            //         if (!_weapon.IsFiring)  _weapon.StartFiring();
+            //         _weapon.UpdateFiring(Time.deltaTime);
+            //     }
+            // }
+            // else
+            //     AimLayer.weight -= Time.deltaTime / AimDuration;
+            AimLayer.weight = 1f;
         }
 
         private void FixedUpdate()

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5548289194708431235}
   - component: {fileID: 5515298717014059769}
   - component: {fileID: 5525580033455035157}
-  - component: {fileID: 5597685857225099153}
   m_Layer: 0
   m_Name: Pistol30
   m_TagString: Untagged
@@ -84,23 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &5597685857225099153
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5548289194708651427}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e16953ee70c66b64aacb5cfc435bfe21, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

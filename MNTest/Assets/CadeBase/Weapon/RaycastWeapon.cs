@@ -19,6 +19,7 @@ namespace CadeBase.Weapon
         public GameObject RaycastOrigin;
         public Transform RaycastDestination;
         public TrailRenderer TracerEffect;
+        public AnimationClip WeaponAnimation;
         public float BulletSpeed = 1000f;
         public float BUlletDrop;
         public int FireRate = 25;
