@@ -264,7 +264,7 @@ MonoBehaviour:
   RaycastDestination: {fileID: 0}
   TracerEffect: {fileID: 9123552610387269664, guid: aaae94f748cedd54c8b824a3fbb049f8,
     type: 3}
-  WeaponAnimation: {fileID: 7400000, guid: 094893ab012939f45b1a2a324e0266bb, type: 2}
+  WeaponName: Gun
   BulletSpeed: 500
   BUlletDrop: 0
   FireRate: 10

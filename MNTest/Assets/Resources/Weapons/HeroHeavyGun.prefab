@@ -64,7 +64,7 @@ MonoBehaviour:
   RaycastDestination: {fileID: 0}
   TracerEffect: {fileID: 9123552610387269664, guid: c6b69160a91f2104592b194f00f9db84,
     type: 3}
-  WeaponAnimation: {fileID: 7400000, guid: 1282f559dde9d6b4393cf85d7a84df12, type: 2}
+  WeaponName: HeavyGun
   BulletSpeed: 500
   BUlletDrop: 0
   FireRate: 10
